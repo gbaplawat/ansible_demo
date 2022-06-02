@@ -1,6 +1,7 @@
 ---
 - name: test playbook
   hosts: all
+  gather_facts: false
   tasks: 
   - name: testing authentication
     ping:
