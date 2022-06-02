@@ -8,3 +8,6 @@
   - name: printing a fact
     debug: 
       msg: "{{ ansible_architecture }}"
+  - name: Printing a name
+    debug: 
+      msg: "{{ nme }}"
