@@ -4,3 +4,6 @@
   tasks: 
   - name: testing authentication
     ping:
+  - name: printing a fact
+    debug: 
+      msg: "{{ ansible_architecture }}"
